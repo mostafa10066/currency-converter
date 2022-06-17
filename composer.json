@@ -1,0 +1,15 @@
+{
+    "name": "mostafa/currency-converter",
+    "autoload": {
+        "psr-4": {
+            "Mostafa\\CurrencyConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mosi",
+            "email": "mostafa.mbeigi@gmail.com"
+        }
+    ],
+    "require": {}
+}
