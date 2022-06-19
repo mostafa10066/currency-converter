@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0745255c-3617-4a0a-9298-7cd7f3e3bfd0" name="mosi" url="http://dedi4166.your-server.de">
+        <fileTransfer accessType="FTPS" host="dedi4166.your-server.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

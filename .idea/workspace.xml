@@ -1,14 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ecd3f27-8ac4-472f-981a-d0150fe6b2b8" name="Default Changelist" comment="" />
+    <list default="true" id="3ecd3f27-8ac4-472f-981a-d0150fe6b2b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/currency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/currency.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+    </include_path>
   </component>
   <component name="ProjectId" id="2AhSSltzsrDOEjccr81nJxBNQCj" />
   <component name="ProjectViewState">
@@ -17,11 +81,47 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\currency" />
+      <recent name="C:\xampp\htdocs\currency\src\Tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\currency\src" />
+      <recent name="C:\xampp\htdocs\currency\src\Providers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CurrencyConverterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+        <envs>
+          <env name="API_KEY" value="LYTzKm7ghxmDXqOgFexrVwrZZEen69vl" />
+        </envs>
+      </CommandLine>
+      <TestRunner bootstrap_file="$PROJECT_DIR$/phpunit.xml" class="CurrencyConverterTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/CurrencyConverterTest.php" scope="Class" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.CurrencyConverterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,6 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1655460325535</updated>
       <workItem from="1655460326640" duration="4771000" />
+      <workItem from="1655580344550" duration="2724000" />
+      <workItem from="1655628881944" duration="6810000" />
     </task>
     <servers />
   </component>
@@ -39,17 +141,73 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="170" key="#CLI_Interpreters" timestamp="1655633948092">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="547" y="170" key="#CLI_Interpreters/0.0.1920.1032@0.0.1920.1032" timestamp="1655633948092" />
+    <state x="552" y="174" key="#Deployment" timestamp="1655580372143">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" key="#Deployment/0.0.1920.1032@0.0.1920.1032" timestamp="1655580372143" />
+    <state x="674" y="158" key="#PHP" timestamp="1655633161015">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="674" y="158" key="#PHP/0.0.1920.1032@0.0.1920.1032" timestamp="1655633161015" />
+    <state x="723" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655630965469">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="723" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1655630965469" />
     <state x="765" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1655464277832">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="765" y="198" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1655464277832" />
-    <state x="787" y="239" key="NewPhpClassDialog" timestamp="1655462003894">
+    <state x="834" y="266" width="996" height="499" key="EnvironmentVariablesDialog" timestamp="1655633039140">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="787" y="239" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655462003894" />
+    <state x="834" y="266" width="996" height="499" key="EnvironmentVariablesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655633039140" />
+    <state x="746" y="282" key="FileChooserDialogImpl" timestamp="1655633937924">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="746" y="282" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1655633937924" />
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1655634342553">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1655634342553">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1655634342553">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1655634342553">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
+    <state x="787" y="239" key="NewPhpClassDialog" timestamp="1655629016896">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="787" y="239" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655629016896" />
     <state x="794" y="439" key="NewPhpFileDialog" timestamp="1655460462747">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655460462747" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1655632677716">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1655632677716" />
+    <state x="816" y="415" key="WebDeployment.AddServerDialog.v.1" timestamp="1655544294528">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="816" y="415" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1032@0.0.1920.1032" timestamp="1655544294528" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655581662525">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1655581662525" />
+    <state x="709" y="260" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1655632899137">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="709" y="260" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655632899137" />
   </component>
 </project>

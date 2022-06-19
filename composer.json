@@ -11,5 +11,8 @@
             "email": "mostafa.mbeigi@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpunit/phpunit": "^9.5"
+    }
 }
