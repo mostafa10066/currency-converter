@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ecd3f27-8ac4-472f-981a-d0150fe6b2b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/currency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/currency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidDataException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/UnauthorizedDataException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ValidationInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/ApiRateProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/ApiRateProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/DbRateProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/DbRateProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
+    <property name="last_opened_file_path" value="D:/netflix" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -96,16 +93,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\currency\src\Exceptions" />
       <recent name="C:\xampp\htdocs\currency" />
       <recent name="C:\xampp\htdocs\currency\src\Tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\currency\src\Exceptions" />
       <recent name="C:\xampp\htdocs\currency\src" />
       <recent name="C:\xampp\htdocs\currency\src\Providers" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="CurrencyConverterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+    <configuration name="CurrencyConverterTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" singleton="false" temporary="true">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.0" />
@@ -133,7 +132,10 @@
       <updated>1655460325535</updated>
       <workItem from="1655460326640" duration="4771000" />
       <workItem from="1655580344550" duration="2724000" />
-      <workItem from="1655628881944" duration="6810000" />
+      <workItem from="1655628881944" duration="11276000" />
+      <workItem from="1655665089902" duration="1495000" />
+      <workItem from="1655755372895" duration="2756000" />
+      <workItem from="1655835078485" duration="2927000" />
     </task>
     <servers />
   </component>
@@ -161,42 +163,62 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="765" y="198" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1655464277832" />
+    <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1655645447493">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="690" y="271" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655645447493" />
     <state x="834" y="266" width="996" height="499" key="EnvironmentVariablesDialog" timestamp="1655633039140">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="834" y="266" width="996" height="499" key="EnvironmentVariablesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655633039140" />
-    <state x="746" y="282" key="FileChooserDialogImpl" timestamp="1655633937924">
+    <state x="746" y="282" key="FileChooserDialogImpl" timestamp="1655757338186">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="746" y="282" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1655633937924" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1655634342553">
+    <state x="746" y="282" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1655757338186" />
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1655846859385">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1655634342553">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1655846859385">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1655634342553">
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1655846859384">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1655634342553">
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859384" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1655846859385">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655634342553" />
-    <state x="787" y="239" key="NewPhpClassDialog" timestamp="1655629016896">
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1655846177071">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="787" y="239" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655629016896" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655846177071" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1655846177071">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655846177071" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1655846177071">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655846177071" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1655846177071">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655846177071" />
+    <state x="787" y="239" key="NewPhpClassDialog" timestamp="1655755543260">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="787" y="239" key="NewPhpClassDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655755543260" />
     <state x="794" y="439" key="NewPhpFileDialog" timestamp="1655460462747">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="794" y="439" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655460462747" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1655632677716">
+    <state x="461" y="161" key="SettingsEditor" timestamp="1655846226733">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1655632677716" />
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1655846226733" />
     <state x="816" y="415" key="WebDeployment.AddServerDialog.v.1" timestamp="1655544294528">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -209,5 +231,8 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="709" y="260" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655632899137" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/currency@CurrencyConverterTest.xml" NAME="CurrencyConverterTest Coverage Results" MODIFIED="1655846859375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

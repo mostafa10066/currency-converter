@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 require_once __DIR__.'/../vendor/autoload.php';
 
 use Mostafa\CurrencyConverter\CurrencyConverter;
@@ -6,5 +8,5 @@ use Mostafa\CurrencyConverter\CurrencyConverter;
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$currency = new CurrencyConverter("USD","EUR",12.5,"api");
+$currency = new CurrencyConverter("EUR","JPY",1);
 echo $currency->convert();

@@ -1,1 +1,1 @@
-{"version":1,"defects":{"CurrencyConverterTest::testCurrencyConverter":4},"times":{"CurrencyConverterTest::testCurrencyConverter":0.53}}
+{"version":1,"defects":{"CurrencyConverterTest::testCurrencyConverter":4,"CurrencyConverterTest::testCurrencyConverterMethodReturnsExceptionIfInvalidData":3},"times":{"CurrencyConverterTest::testCurrencyConverter":0.51,"CurrencyConverterTest::testCurrencyConverterMethodReturnsFloatIfUSDANDEUR":0.539,"CurrencyConverterTest::testCurrencyConverterMethodReturnsExceptionIfInvalidData":0.079}}
