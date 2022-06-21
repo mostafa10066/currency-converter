@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3ecd3f27-8ac4-472f-981a-d0150fe6b2b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +142,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="547" y="170" key="#CLI_Interpreters" timestamp="1655633948092">
       <screen x="0" y="0" width="1920" height="1032" />
@@ -165,22 +186,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="746" y="282" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1655757338186" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1655847016523">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1655851665632">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1655847016523">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655851665632" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1655851665632">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1655847016523">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655851665632" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1655851665632">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1655847016523">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655851665632" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1655851665632">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655851665632" />
     <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1655846177071">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -223,6 +244,6 @@
     <state x="709" y="260" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1655632899137" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/currency@CurrencyConverterTest.xml" NAME="CurrencyConverterTest Coverage Results" MODIFIED="1655846859375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/currency@CurrencyConverterTest.xml" NAME="CurrencyConverterTest Coverage Results" MODIFIED="1655851657653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
