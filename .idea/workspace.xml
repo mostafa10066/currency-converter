@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ecd3f27-8ac4-472f-981a-d0150fe6b2b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classes/Validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidDataException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/UnauthorizedDataException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ProvidersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/ValidationInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Curl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CurrencyConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Providers/ApiRateProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/ApiRateProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Providers/DbRateProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/DbRateProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CurrencyConverterTest.php" afterDir="false" />
     </list>
@@ -135,7 +127,7 @@
       <workItem from="1655628881944" duration="11276000" />
       <workItem from="1655665089902" duration="1495000" />
       <workItem from="1655755372895" duration="2756000" />
-      <workItem from="1655835078485" duration="2927000" />
+      <workItem from="1655835078485" duration="4572000" />
     </task>
     <servers />
   </component>
@@ -175,22 +167,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="746" y="282" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1655757338186" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1655846859385">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1655847016523">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1655846859385">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1655847016523">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1655846859384">
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1655847016523">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859384" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1655846859385">
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1655847016523">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655846859385" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1655847016523" />
     <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1655846177071">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

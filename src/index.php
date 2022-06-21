@@ -8,5 +8,5 @@ use Mostafa\CurrencyConverter\CurrencyConverter;
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-$currency = new CurrencyConverter("EUR","JPY",1);
+$currency = new CurrencyConverter("EUR","EUR",1);
 echo $currency->convert();

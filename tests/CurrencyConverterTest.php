@@ -18,4 +18,11 @@ final class CurrencyConverterTest extends TestCase
         $currency->convert();
         $this->assertInstanceOf(InvalidDataException::class, new Exception);
     }
+
+    public function testCurrencyConverterMethodReturnsTrueIfEqualCurrency(): void
+    {
+        $currency = new CurrencyConverter("EUR", "EUR", 1);
+        $result = $currency->convert();
+        $this->assertEquals(1, $result);
+    }
 }
